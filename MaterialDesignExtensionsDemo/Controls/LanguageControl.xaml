@@ -25,6 +25,7 @@
                     <Button Style="{StaticResource LanguageButtonStyle}" Content="Portuguese" Command="{Binding Path=SelectLanguageCommand}" CommandParameter="pt-br" />
                     <Button Style="{StaticResource LanguageButtonStyle}" Content="Russian" Command="{Binding Path=SelectLanguageCommand}" CommandParameter="ru-ru" />
                     <Button Style="{StaticResource LanguageButtonStyle}" Content="Uzbek" Command="{Binding Path=SelectLanguageCommand}" CommandParameter="uz-Latn-UZ" />
+                    <Button Style="{StaticResource LanguageButtonStyle}" Content="简体中文" Command="{Binding Path=SelectLanguageCommand}" CommandParameter="zh-CN" />
                 </StackPanel>
             </DockPanel>
         </ScrollViewer>
